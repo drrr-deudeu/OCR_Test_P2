@@ -1,0 +1,12 @@
+/* ATTENTION : cette syntaxe n'est pas optimisante lors du chargement de la page */
+/* elle permet juste de n'avoir qu'un seul <link> pour le style dans index.html */
+@import url("normalize.css");
+@import url("global.css");
+@import url("header.css");
+@import url("search.css");
+@import url("filters.css");
+@import url("hebergements.css");
+@import url("activities.css");
+@import url("footer.css");
+@import url("mediaqueries.css");
+

@@ -1,0 +1,70 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#header nav {
+    display: flex;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+ul.menu li {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 2px;
+    list-style-type: none;
+    font-size: 12px;
+    /* background-color: orange; */
+}
+
+.menu a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-weight: bolder;
+    /* background-color: hotpink; */
+}
+
+.menu a:link,a:visited{
+    color: black;
+    text-decoration: none;
+    border-top: 3px solid var(--color-booki-fond);
+}
+/* .menu a:visited {
+    color: black;
+    text-decoration: none;
+    border-top: 3px solid var(--color-booki-fond);
+} */
+.menu a:hover{
+    border-top: 3px solid var(--color-booki-dark);
+    color: var(--color-booki-dark);
+}
+
+#logo {
+    padding-top: 50px;
+    width: 85px;
+    margin: 0px;
+}
+#booki_logo {
+    width: 100%;
+    height: auto;
+}

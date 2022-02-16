@@ -1,0 +1,355 @@
+/* pad */
+@media (max-width:991px) {
+    .general_margin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #accomodation{
+        max-width: 56%;
+    }
+    .card{
+        min-width: 45%;
+    }
+    #populaire{
+        width: 35%;
+    }
+    .rubriques{
+        padding-left: 40px;
+    }
+
+}
+/* Mobile phones */
+@media (max-width: 767px) {
+    /* Header */
+    #header {
+        min-width: 100%;
+        max-width: 100%;
+        margin-left:0;
+        margin-right:0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 75px;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul.menu li a{
+        /* font-size: 22px; */
+        justify-content: center;
+    
+    }  
+    .general_margin {
+        margin-left: 0px;
+        margin-right: 60px;
+
+    }
+
+    .margin_on {
+        margin-left: 40px;
+        margin-right: 60px;
+    }
+    .margin_off{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #logo{
+        width: 30%;
+        padding-top: 0px;
+    }
+    #header nav {
+        width: 100%;
+    }
+    .menu a{
+        font-size: large;
+        font-weight: normal;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu a:link,a:visited{
+        border-top: 0px;
+        border-bottom: 3px solid var(--color-booki-fond);
+    }
+
+    .menu a:hover{
+        border-top: 0px;
+        border-bottom: 3px solid var(--color-booki-dark);
+    }
+
+    .surtitre{
+        font-size: 31px;
+    }
+    .soustitre{
+        font-size: 27px;
+        margin-top: 28px;
+        margin-bottom: 75px;
+    }
+    #town {
+        width: 60%;
+    }
+
+    /* main search */
+    #form_search .button_text {
+        display: none;
+    }
+    
+    #form_search form{
+        height: var(--search_height_mobile);
+    }
+
+    #form_search label{
+        max-height: var(--search_height_mobile);
+        max-width: var(--search_height_mobile);
+    }
+    
+    .label_desk{
+        display: none;
+    }
+    .label_mobile{
+        display: flex;
+        min-width: var(--search_height_mobile);
+    }
+    .label_mobile i{
+        max-height: var(--search_height_mobile);
+        /* min-width: 100px; */
+    }
+    #form_search input{
+        font-size: 23px;
+    }
+
+    .demi-icon{
+        box-sizing: border-box;
+        min-height: var(--search_height_mobile);
+        max-height: var(--search_height_mobile);
+    }
+
+    
+    #superposition{
+        display: flex;
+        flex-direction:row;
+    }
+
+    /* filters */
+    #filters{
+        flex-direction: column;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    
+    .only_desk{
+        display: none;
+    }
+    .only_mobile{
+        display: inline;
+    }
+    
+    .filter{
+        max-height:var(--filter_height_mobile);
+        border-radius: var(--filter_radius_mobile);
+    }
+    
+    .filtercircle{
+        min-width: var(--filtercircle_size_mobile);
+        height: var(--filtercircle_size_mobile);
+        border-radius: var(--filtercircle_radius_mobile);
+    }
+    
+    .filtercircle i{
+        padding-top: 23px;
+    }
+    
+    /* section "orderable" */
+    /* hebergements et populaires (hebergements.css)*/
+    #orderable{
+        flex-direction: column;
+    }
+    .container_title {
+        font-size: 5vw;
+        font-weight: 3;
+    }
+    
+    #orderable figcaption .h_title{
+        /* font-size: 28px; */
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    #orderable figcaption .h_nuite{
+        font-size: 25px;
+    }
+    #orderable figcaption p{
+        font-size: 18px;
+    }
+    .h_nuite {
+        margin: 0;
+        padding:0;
+        line-height: 4vw;
+        /* max-height: 12px; */
+    }
+    .h_texte {
+        font-size: 3vw;
+        font-weight:normal;
+    }
+    .h_price {
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    
+    #accomodation{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        justify-content: center;
+    }
+    #populaire{
+        order: -1;
+        width: 100%;
+    }
+    .container{
+        border-radius: 0px;
+    }
+    .basic_container{
+        background-color: white;
+    }
+    .card {
+        box-shadow: 0px 5px 20px 5px var(--color-booki-fond);
+        min-width: 90%;
+        min-height: 360px;
+        max-height: 360px;
+        border-radius: 40px;
+    }
+
+    .h_textes{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .h_image{
+        max-height: 224px;
+        border-radius: 30px 30px 0 0;
+    }
+    .score{
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .five_stars .repeatglop{
+        min-width: 118px;
+        max-width: 118px;
+    }
+    .five_stars .repeatpasglop{
+        display: none;
+        /* min-width: 0px;
+        max-width: 0px; */
+    }
+    .four_stars .repeatglop{
+        min-width: 93px;
+        max-width: 93px;
+    }
+    .four_stars .repeatpasglop{
+        min-width: 25px;
+        max-width: 25px;
+    }
+    .three_stars .repeatglop{
+        min-width: 70px;
+        max-width: 70px;
+    }
+    .three_stars .repeatpasglop{
+        min-width: 48px;
+        max-width: 48px;
+    }
+    .card_pop{
+        max-width: 90%;
+        min-height: 250px;
+        padding: 10px;
+        border-radius: 40px;
+    }
+    
+    .h_image_pop{
+        max-height: 100%;
+        width: 40%;
+        border-radius: 30px 0px 0px 30px;
+    }
+    /* Activities */
+    .activities{
+        flex-direction: column;
+        height: auto;
+    }
+    .activities_col{
+        min-width:100%;
+        max-width:100%;    
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .activity{
+        max-width: 95%;
+        min-width: 95%;
+        border-radius: 30px;
+    }
+    .activity_img{
+        min-width: 100%;
+        max-width: 100%;
+        border-radius: 30px 30px 0 0;
+    }
+    .activity_caption{
+        max-height: 110px;
+        min-height: 110px;
+        
+    }
+    .activity_name{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    #vieux_port{
+        height: 390px;
+    }
+    
+    #pomegues{
+        max-height: 390px;
+        min-height: 390px;
+    }
+    
+    #pomegues_img {
+        max-height: 270px;
+        min-height: 270px;
+    }
+    
+    #frioul{
+        max-height: 390px;
+        min-height: 390px;
+    }
+    #frioul_img{
+        max-height: 270px;
+        min-height: 270px;
+    }
+    
+    #calanques{
+        height: 390px;
+    }
+    
+    #col4 img{
+        min-height: 270px;
+        max-height: 270px;
+    }
+    
+    #garde{
+        height: 390px;
+    }
+    #longchamp{
+        height: 390px;
+    } 
+    footer{
+        min-height: 700px;
+        font-size: large;
+    }
+
+    .rubriques{
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: space-evenly;
+    }
+    .rubrique{
+        margin: 30px;
+    }
+    .titre_rubrique{
+        margin-bottom: 30px;
+
+    }
+}

@@ -1,0 +1,302 @@
+/* images */
+#orderable {
+    display: flex;
+    /* flex-wrap: row; */
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.margin-off{
+    margin-right: 20px;
+}
+
+.container{
+    background-color: var(--color-booki-fond);
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 20px;
+    margin-bottom: 39px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.container_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 0px;
+    margin-bottom: 10px;
+}
+
+.container_bottom{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#accomodation {
+    order: 1;
+    max-width: 60%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 18px;
+    column-gap: 15px;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 15px;
+    /* box-shadow made with the tools: */
+    /*//developer.mozilla.org/fr/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator */
+    box-shadow: 0px 2px 10px 2px var(--color-alt-gris);
+    min-width: 30%;
+    max-width: 30%;
+    min-height : 78px;
+    max-height: 140px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+:root{
+    --h_texte: "Nuit à partir de ";
+    --h-price: "0€";
+    --h-title: "card";
+}
+
+#cannebiere *{
+    --h-price: "25€";
+    --h-title: "Auberge La Cannebière";
+    --h-pos-x: 10px;
+    --h-pos-y: 10px;
+}
+#port *{
+    --h-price: "52€";
+    --h-title: "Hôtel du port";
+    --h-pos-x: 0px;
+    --h-pos-y: 0px;
+}
+
+#mouettes *{
+    --h-price: "76€";
+    --h-title: "Hôtel les mouettes";
+    --h-pos-x: 0px;
+    --h-pos-y: 0px;
+}
+
+#panier{
+    --h-price: "23€";
+    --h-title: "Auberge Le Panier";
+    --h-pos-x: 0px;
+    --h-pos-y: 0px;
+}
+
+#amina *{
+    --h-price: "96€";
+    --h-title: "Hôtel chez Amina";
+    --h-pos-x: 0px;
+    --h-pos-y: 0px;
+}
+
+#mer *{
+    --h-price: "46€";
+    --h-title: "Hôtel de la mer";
+}
+
+#matin *{
+    --h-price: "128€";
+    --h-title: "Hôtel Le soleil du matin";
+}
+
+#coeur *{
+    --h-price: "71€";
+    /* e dans l'o  Alt 156 */
+    --h-title: "Au coeur de l'eau Chambres d'hôtes";
+}
+
+#bleu *{
+    --h-price: "68€";
+    --h-title: "Hôtel Tout bleu et Blanc";
+}
+
+figure.orderable{
+    margin: 0;
+}
+
+figcaption.orderable {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.h_textes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.h_title{
+    font-weight: bold;
+    font-size: 11px;
+    margin:0;
+    padding:0;
+}
+.h_title::after{
+    content:""var(--h-title)"";
+}
+
+.h_nuite {
+    margin: 0;
+    padding:0;
+    line-height: 13px;
+    /* max-height: 12px; */
+}
+.h_texte {
+    font-size: 10px;
+    font-weight:lighter;
+}
+.h_price {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.h_texte::after{
+    content: ""var(--h_texte) "";
+}
+.h_price::after{
+    content:""var(--h-price)"";    
+}
+.h_image{
+    object-position: var(--h-pos-x) var(--h-pos-y) top;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 80px;
+    object-fit:cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.score{
+    display:flex;
+    flex-direction: row;
+    font-size: 7px;
+    color: transparent;
+}
+
+.glop{
+    color: var(--color-booki-dark);
+}
+
+.pasglop{
+    color: var(--color-alt-gris);
+}
+
+.repeatglop{
+    fill: currentColor;
+    /* background-repeat: round; */
+    background-color: var(--color-booki-dark);
+    -webkit-mask-image: url(../images/svg/star.svg);
+    mask-image: url(../images/svg/star.svg);
+}
+
+.repeatpasglop{
+    fill: currentColor;
+    background-color: var(--color-alt-gris);
+    -webkit-mask-image: url(../images/svg/star.svg);
+    mask-image: url(../images/svg/star.svg);
+}
+
+.five_stars .repeatglop{
+    min-width: 46px;
+    max-width: 46px;
+}
+.five_stars .repeatpasglop{
+    display: none;
+}
+.four_stars .repeatglop{
+    min-width: 37px;
+    max-width: 37px;
+}
+.four_stars .repeatpasglop{
+    min-width: 9px;
+    max-width: 9px;
+}
+.three_stars .repeatglop{
+    min-width: 28px;
+    max-width: 28px;
+}
+.three_stars .repeatpasglop{
+    min-width: 19px;
+    max-width: 19px;
+}
+
+#populaire{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+#populaire figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100%;
+}
+.cards_pop{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.card_pop{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+    box-shadow: 0px 5px 20px 5px var(--color-alt-gris);
+    min-width: 97%;
+    max-width: 97%;
+    min-height: 90px;
+    max-height: 90px;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: white;
+}
+
+.card_pop:hover{
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,0.3);
+}
+
+.h_image_pop{
+    width: 40%;
+    height: auto;
+    object-fit:cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.h_image_pop::after {
+    content: var(--h-title);
+}
+
+.card_pop figure{
+    display: flex;
+    flex-direction: row;
+}

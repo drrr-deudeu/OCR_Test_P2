@@ -1,0 +1,115 @@
+:root{
+    --filter_height: 52px;
+    --filter_radius: 30px;
+    --filtercircle_size: 56px;
+    --filtercircle_radius: 28px;
+    --filter_height_mobile: 60px;
+    --filter_radius_mobile: 40px;
+    --filtercircle_size_mobile: 64px;
+    --filtercircle_radius_mobile: 32px;
+}
+
+#filtres{
+    font-size: 14px;
+    margin-bottom: 34px;
+}
+#filters{
+    display: flex;
+    flex-direction: row;
+}
+
+.filterlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.only_desk{
+    margin-right: 30px;
+}
+.only_mobile{
+    display: none;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    max-height:var(--filter_height);
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    /* border: 2px solid var(--color-booki-fond); */
+    border: 2px solid var(--color-alt-gris);
+    border-left: 0px;
+    align-items: center;
+    border-radius: var(--filter_radius);
+}
+.filter:hover{
+    background-color: var(--color-booki-fond);
+}
+
+.filtercircle{
+    box-sizing: content-box;
+    min-width: var(--filtercircle_size);
+    height: var(--filtercircle_size);
+    border-radius: var(--filtercircle_radius);
+    background-color: var(--color-booki-light);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.filtercircle i{
+    padding-top: 23px;
+    color:var(--color-booki-dark);
+}
+
+.filtername {
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#infos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-left: 2px;
+}
+
+#infos i{
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 0px;
+    background-color:var(--color-booki-dark);
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 16px 16px 16px 16px;
+    position: absolute;
+    z-index: 1;
+}
+
+#little_circle {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    width: 20px;
+    height: 21px;
+    margin-top: -2px;
+    background-color: transparent;
+    border: 2px solid var(--color-alt-gris);
+    border-radius: 21px;
+}
+
+#infos_text{
+    padding-top: 0px;
+    position: relative;
+    z-index:3;
+    margin-left: 30px;
+    font-size: 16px;
+}

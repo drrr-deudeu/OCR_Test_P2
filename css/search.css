@@ -1,0 +1,99 @@
+:root{
+    --search_height: 50px;
+    --search_height_mobile: 60px;
+}
+#search {
+    margin-bottom: 30px;
+}
+.surtitre{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.soustitre{
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+#form_search form{
+    display: flex;
+    flex-direction: row;
+    height: var(--search_height);
+    font-weight: bold;
+}
+#form_search label{
+    background-color: var(--color-booki-fond);
+    border-radius: 15px 0px 0px 15px;
+    border: solid var(--color-booki-fond);
+    max-width: var(--search_height);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.label_desk {
+    width: var(--search_height);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--color-booki-fond);
+    border: solid var(--color-booki-fond);
+}
+.label_desk i{
+    max-height: var(--search_height);
+}
+.label_mobile{
+    width: 0;
+    display: none;
+    justify-content: center;    
+    align-items: center;
+    max-width: var(--search_height_mobile);
+    border-radius: 21px 0px 0px 21px;
+}
+#form_search input{
+    font-weight: bold;
+    border: solid var(--color-booki-fond);
+    border-right: none;
+    padding-left: 20px;
+}
+#form_search .button_text{
+    display: flex;
+    background-color: var(--color-booki-dark);
+    color: var(--color-booki-fond);
+    border: solid var(--color-booki-dark);
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#superposition{
+    display: none;
+}
+
+.demi-icon{
+    position: absolute;
+    min-width:20px;
+    height: var(--search_height);
+    /* border: solid var(--color-booki-fond);  */
+    border: solid var(--color-booki-fond);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+#form_search .button_icon {
+    position: absolute;
+    background-color: var(--color-booki-dark);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 21px;
+    border-width: 0px;
+    min-height: var(--search_height_mobile);
+    min-width: var(--search_height_mobile);
+}
+#form_search button .fa-search{
+    color: white;
+}

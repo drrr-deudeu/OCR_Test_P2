@@ -1,0 +1,48 @@
+footer {
+    margin-top: 40px;
+    padding-top: 35px;
+    height: 106px;
+    width: 100%;
+    background-color: var(--color-booki-fond);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+footer *{
+    margin: 0;
+    padding: 0;
+}
+#site{
+    /* margin-top: 30px; */
+    min-width: 100%;
+    max-width: 100%;
+}
+.rubriques{
+    max-width: 70%;
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+
+.rubrique{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.titre_rubrique{
+    margin-bottom: 10px;
+    font-weight: bold;
+}

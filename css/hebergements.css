@@ -6,8 +6,8 @@
     gap: 30px;
 
 }
-.margin-off{
-    margin-right: 20px;
+.margin_off{
+    margin-right: 0px;
 }
 
 .container{
@@ -270,7 +270,7 @@ figcaption.orderable {
 .card_pop{
     display: flex;
     flex-direction: row;
-    border: 0px solid red;
+    /* border: 0px solid red; */
     box-shadow: 0px 5px 20px 5px var(--color-alt-gris);
     min-width: 97%;
     max-width: 97%;

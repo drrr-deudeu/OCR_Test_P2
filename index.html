@@ -15,7 +15,8 @@
 <body>
     <header id="header">
         <div id="logo">
-        <img src="images/logo/Booki@3x.png" alt="Booki" id="booki_logo"/>
+            <img src="images/logo/Booki@3x.png" alt="Booki" id="booki_logo"/>
+            <!-- <img src="images/logo/Booki.png" alt="Booki" id="booki_logo"/> -->
         </div>
         <nav>
             <ul class="menu">
@@ -32,7 +33,9 @@
                 <form>
                     <label for="town">
                         <span class="label_desk"><i class="fas fa-map-marker-alt"></i></span>
-                        <span class="label_mobile"><i class="fas fa-map-marker-alt fa-lg"></i></span>
+                        <span class="label_mobile">
+                            <i class="fas fa-map-marker-alt fa-lg"></i>
+                        </span>
                     </label>
                     <input type="text" name="ville" id="town" value="Marseille, France"/>
                     <input class="button_text" type="button" value="Rechercher" />
@@ -52,32 +55,33 @@
                 <div class="filterlist">
                     <div id="eco">
                         <div class="filter">
-                            <div class="filtercircle"><i class="fas fa-money-bill-wave fa-lg"></i></div>
+                            <div class="filtercircle"><i class="fas fa-money-bill-wave"></i></div>
                             <div class="filtername">Économique</div>
                         </div>
                     </div>
                     <div id="family">
                         <div class="filter">
-                            <div class="filtercircle"><i class="fas fa-child fa-lg"></i></div>
+                            <div class="filtercircle"><i class="fas fa-child"></i></div>
                             <div class="filtername">Familial</div>
                         </div>
                     </div>
                     <div id="romantique">
                         <div class="filter">
-                            <div class="filtercircle"><i class="fas fa-heart fa-lg"></i></div>
+                            <div class="filtercircle"><i class="fas fa-heart"></i></div>
                             <div class="filtername">Romantique</div>
                         </div>
                     </div>
                     <div id="animaux">
                         <div class="filter">
-                            <div class="filtercircle"><i class="fas fa-dog fa-lg"></i></div>
+                            <div class="filtercircle"><i class="fas fa-dog"></i></div>
                             <div class="filtername">Animaux autorisés</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="infos">
-                <i class="fas fa-info-circle fa-lg"></i>
+                <div class="only_desk"><i class="fas fa-info-circle fa-lg"></i></div>
+                <div class="only_mobile"><i class="fas fa-info-circle fa-3x"></i></div>
                 <div id="little_circle"></div>
                 <div id="infos_text">Plus de 500 logements sont disponibles dans cette ville</div>
             </div>
@@ -85,7 +89,7 @@
 
         <div id="orderable" class="margin_off">
             <section id="accomodation" class="container basic_container">
-                <div class="container_title">
+                <div class="container_title mobile_padding">
                     <h3>Hébergements à Marseille</h3>
                 </div>
                 <div class="cards">
@@ -179,13 +183,13 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="#" id="amina" class="card link">
+                    <a href="#" id="amina" class="card link distributed">
                         <figure class="orderable">
                             <img
                                 src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
                                 alt="Hôtel chez Amina" class="h_image"
                                 />
-                            <figcaption class="orderable">
+                            <figcaption class="orderable distributed">
                                 <div class="h_textes">
                                     <p class="h_title"></p>
                                     <p class="h_nuite"><span class="h_texte"></span><span class="h_price"></span></p>
@@ -263,8 +267,7 @@
                 </div>
             </section>
         </div>
-
-        <section id="activities">
+        <section id="activities" class="margin_off container_activity">
             <div class="container_title">
                 <h3>Activités à Marseille</h3>
             </div>
@@ -322,7 +325,7 @@
                 <div id="col4" class="activities_col">
                     <a href="#" id="garde" class="link activity">
                         <figure class="activity_figure">
-                            <img 
+                            <img id="garde_img"
                                 src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                 alt="Notre-Dame-de-la-Garde" class="activity_img"
                                 />
@@ -333,7 +336,7 @@
                     </a>
                     <a href="#" id="longchamp" class="link activity">
                         <figure class="activity_figure">
-                            <img 
+                            <img id="longchamp_img"
                                 src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                 alt="Parc Longchamp" class="activity_img"
                                 />
@@ -345,7 +348,9 @@
                 </div>
             </div>
         </section>
+    
     </div>
+
     <footer class="margin_off">
         <nav id="site" class="site">
             <ul class="rubriques">

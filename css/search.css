@@ -1,6 +1,7 @@
 :root{
     --search_height: 50px;
-    --search_height_mobile: 60px;
+    --search_height_mobile: 7vh;
+    --search_radius_mobile: 20px;
 }
 #search {
     margin-bottom: 30px;
@@ -47,7 +48,6 @@
     justify-content: center;    
     align-items: center;
     max-width: var(--search_height_mobile);
-    border-radius: 21px 0px 0px 21px;
 }
 #form_search input{
     font-weight: bold;
@@ -89,7 +89,7 @@
     padding-right: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 21px;
+    border-radius: var(--search_radius_mobile);
     border-width: 0px;
     min-height: var(--search_height_mobile);
     min-width: var(--search_height_mobile);

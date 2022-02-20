@@ -97,8 +97,8 @@
     display: none;
     position: absolute;
     background-color: var(--color-booki-dark);
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: var(--search_radius_mobile);

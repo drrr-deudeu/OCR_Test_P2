@@ -30,6 +30,10 @@
     justify-content: center; 
     align-items: center;
 }
+#input_fields{
+    display: flex;
+    flex-direction: row;
+}
 
 .label_desk {
     width: var(--search_height);
@@ -57,6 +61,8 @@
 }
 #form_search .button_text{
     display: flex;
+    align-self: center;
+    position : absolute;
     background-color: var(--color-booki-dark);
     color: var(--color-booki-fond);
     border: solid var(--color-booki-dark);
@@ -64,13 +70,18 @@
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 0px 15px 15px 0px;
+    height: var(--search_height);
 }
 
 #superposition{
-    display: none;
+    /* display: none; */
+    display: flex;
+    flex-direction: row;
+    max-height: var(--search_height);
 }
 
 .demi-icon{
+    display: none;
     position: absolute;
     min-width:20px;
     height: var(--search_height);
@@ -83,6 +94,7 @@
 }
 
 #form_search .button_icon {
+    display: none;
     position: absolute;
     background-color: var(--color-booki-dark);
     padding-left: 12px;
@@ -96,4 +108,6 @@
 }
 #form_search button .fa-search{
     color: white;
+    align-self:center;
+    margin-left: 5px;
 }

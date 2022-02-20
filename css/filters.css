@@ -3,9 +3,9 @@
     --filter_radius: 30px;
     --filtercircle_size: 56px;
     --filtercircle_radius: 28px;
-    --filter_height_mobile: 59px;
+    --filter_height_mobile: 64px;
     --filter_radius_mobile: 60px;
-    --filtercircle_size_mobile: 61px;
+    --filtercircle_size_mobile: 74px;
     --filtercircle_radius_mobile: 61px;
 }
 
@@ -108,9 +108,9 @@
 }
 
 #infos_text{
-    padding-top: 0px;
+    padding-top: 1px;
     position: relative;
     z-index:3;
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: 16px;
 }

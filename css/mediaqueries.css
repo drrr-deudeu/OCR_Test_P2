@@ -270,11 +270,12 @@
         margin:0;
         padding-right: 40px;
     }
+    /* max-height permet de controler la hauteur totale d'une vignette hébergement */ 
     .card {
         box-shadow: 0px 5px 20px 5px var(--color-booki-fond);
         min-width: 100%;
         min-height: max-content;
-        max-height: 300px;
+        max-height: 360px;
         border-radius: 40px;
         padding-top: 7px;
         padding-left: 7px;
@@ -285,10 +286,11 @@
         margin-right:40px;
         border-radius: 40px;
     }
+    /* min-height : permet de controler la hauteur des vignettes "populaires" */
     .card_pop{
         min-width: 100%;
         max-width: 100%;
-        min-height: 200px;
+        min-height: 235px;
         border-radius: 40px;
         padding: 7px;
         border-width: 5px;
@@ -308,9 +310,10 @@
         padding-left: 15px;
     }
     
+    /* min-height permet de controler la hauteur prise par une vignette hebergement */
     .h_image{
-        max-height: 160px;
-        min-height: 160px;
+        max-height: 190px;
+        min-height: 190px;
         border-radius: 30px 30px 0 0;
     }
 
@@ -354,6 +357,7 @@
     }
 
     /* Activities */
+    /* --img_height : value allows to control activity height */
     :root{
         --figure_height: max-content;
         --img_height: 200px;

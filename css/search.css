@@ -74,7 +74,6 @@
 }
 
 #superposition{
-    /* display: none; */
     display: flex;
     flex-direction: row;
     max-height: var(--search_height);
@@ -85,7 +84,6 @@
     position: absolute;
     min-width:20px;
     height: var(--search_height);
-    /* border: solid var(--color-booki-fond);  */
     border: solid var(--color-booki-fond);
     border-top-width: 2px;
     border-bottom-width: 2px;

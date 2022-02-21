@@ -1,7 +1,5 @@
-/* images */
 #orderable {
     display: flex;
-    /* flex-wrap: row; */
     justify-content: space-between;
     gap: 30px;
 
@@ -18,7 +16,6 @@
     margin-bottom: 39px;
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .container_title{

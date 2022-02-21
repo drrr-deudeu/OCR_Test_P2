@@ -122,8 +122,7 @@
 
 #coeur *{
     --h-price: "71€";
-    /* e dans l'o  Alt 156 */
-    --h-title: "Au coeur de l'eau Chambres d'hôtes";
+    --h-title: "Au cœur de l'eau Chambres d'hôtes";
 }
 
 #bleu *{
@@ -169,7 +168,6 @@ figcaption.orderable {
     margin: 0;
     padding:0;
     line-height: 13px;
-    /* max-height: 12px; */
 }
 .h_texte {
     font-size: 10px;
@@ -212,7 +210,6 @@ figcaption.orderable {
 
 .repeatglop{
     fill: currentColor;
-    /* background-repeat: round; */
     background-color: var(--color-booki-dark);
     -webkit-mask-image: url(../images/svg/star.svg);
     mask-image: url(../images/svg/star.svg);
@@ -270,7 +267,6 @@ figcaption.orderable {
 .card_pop{
     display: flex;
     flex-direction: row;
-    /* border: 0px solid red; */
     box-shadow: 0px 5px 20px 5px var(--color-alt-gris);
     min-width: 97%;
     max-width: 97%;

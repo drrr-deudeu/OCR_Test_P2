@@ -30,7 +30,6 @@ ul.menu li {
     margin-top: 2px;
     list-style-type: none;
     font-size: 12px;
-    /* background-color: orange; */
 }
 
 .menu a{
@@ -41,7 +40,6 @@ ul.menu li {
     padding-right: 30px;
     padding-top: 50px;
     font-weight: bolder;
-    /* background-color: hotpink; */
 }
 
 .menu a:link,a:visited{
@@ -49,11 +47,6 @@ ul.menu li {
     text-decoration: none;
     border-top: 3px solid var(--color-booki-fond);
 }
-/* .menu a:visited {
-    color: black;
-    text-decoration: none;
-    border-top: 3px solid var(--color-booki-fond);
-} */
 .menu a:hover{
     border-top: 3px solid var(--color-booki-dark);
     color: var(--color-booki-dark);

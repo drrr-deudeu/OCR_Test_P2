@@ -182,7 +182,7 @@ figcaption.orderable {
     content:""var(--h-price)"";    
 }
 .h_image{
-    object-position: var(--h-pos-x) var(--h-pos-y) top;
+    /* object-position: var(--h-pos-x) var(--h-pos-y) top; */
     max-width: 100%;
     min-width: 100%;
     max-height: 80px;

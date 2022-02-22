@@ -57,7 +57,7 @@
     max-height: 265px;
     min-height: 265px;
     object-fit: cover;
-    object-position: var(--a-pos-x) var(--a-pos-y) top;
+    /* object-position: var(--a-pos-x) var(--a-pos-y) top; */
     border-radius: 15px 15px 0 0;
 }
 .activity_caption{

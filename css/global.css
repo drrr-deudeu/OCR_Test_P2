@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     font-family: Raleway,sans-serif;
     color: black;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .general_margin{
     margin-left: 35px;

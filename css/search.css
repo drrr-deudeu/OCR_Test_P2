@@ -1,6 +1,7 @@
 :root{
     --search_height: 50px;
-    --search_height_mobile: 7vh;
+    /* --search_height_mobile: 7vh; */
+    --search_height_mobile: 80px;
     --search_radius_mobile: 20px;
 }
 #search {
@@ -95,10 +96,10 @@
     display: none;
     position: absolute;
     background-color: var(--color-booki-dark);
-    padding-left: 15px;
+    /* padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
     border-radius: var(--search_radius_mobile);
     border-width: 0px;
     min-height: var(--search_height_mobile);
@@ -106,6 +107,6 @@
 }
 #form_search button .fa-search{
     color: white;
-    align-self:center;
-    margin-left: 5px;
+    /* align-self:center; */
+    /* margin-left: 5px; */
 }

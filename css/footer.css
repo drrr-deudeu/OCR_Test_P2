@@ -1,7 +1,8 @@
 footer {
     margin-top: 40px;
     padding-top: 35px;
-    height: 106px;
+    /* height: 106px; */
+    height: max-content;
     width: 100%;
     background-color: var(--color-booki-fond);
     color: black;
@@ -26,6 +27,7 @@ footer *{
     flex-direction: row;
     justify-content: space-between;
     padding-left: 35px;
+    padding-bottom: 30px;
 }
 
 .rubrique{

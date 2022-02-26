@@ -4,7 +4,7 @@
     gap: 30px;
 
 }
-.margin_off{
+.margin-off{
     margin-right: 0px;
 }
 
@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.container_title{
+.container-title{
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -1,6 +1,6 @@
 /* tablet */
 @media (max-width:991px) {
-    .general_margin {
+    .general-margin {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -37,16 +37,16 @@
         justify-content: center;
     
     }  
-    .general_margin {
+    .general-margin {
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    .margin_on {
+    .margin-on {
         margin-left: 40px;
         margin-right: 40px;
     }
-    .margin_off{
+    .margin-off{
         margin-right: 40px;
         margin-left: 0px;
     }
@@ -193,7 +193,7 @@
     #orderable{
         flex-direction: column;
     }
-    .container_title {
+    .container-title {
         max-width: 100%;
         font-size: 5vw;
         font-weight: 3;
